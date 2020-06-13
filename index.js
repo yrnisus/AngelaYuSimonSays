@@ -7,6 +7,11 @@ var level = 0;
 
 // Event Listeners
 
+$("#start").click( function ()
+{
+    startGame();
+});
+
 $(document).on("keydown", function(event) { 
     //checks if a key is pressed
     if(event.key === "a")
