@@ -14,10 +14,8 @@ $("#start").click( function ()
 
 $(document).on("keydown", function(event) { 
     //checks if a key is pressed
-    if(event.key === "a")
-        {   
         startGame();
-        }
+
     });
 
 $(".btn").click( function () {
